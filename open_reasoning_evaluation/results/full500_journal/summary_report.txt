@@ -1,0 +1,22 @@
+TAG: journal_full500_v1
+====================================================================================================
+Prepared dataset sizes used:
+  - arc_challenge: 500
+  - gsm8k: 500
+  - math_l1_l3: 238
+  - truthfulqa_mc1: 500
+
+Top 12 weighted results under paper_original weights:
+        scheme requested_model_name actual_model_name     strategy  weighted_accuracy  mean_latency_sec_across_tasks  mean_vram_gb_across_tasks  mean_flops_per_token
+paper_original      gemma_4_26b_a4b   gemma_4_26b_a4b    zero_shot           0.783583                       7.069562                  48.067372                   NaN
+paper_original          gemma_4_e4b       gemma_4_e4b few_shot_cot           0.754183                       3.758445                  14.894531                   NaN
+paper_original          gemma_4_e4b       gemma_4_e4b          cot           0.752420                       4.807888                  14.894531                   NaN
+paper_original          gemma_4_e4b       gemma_4_e4b    zero_shot           0.752276                       4.453897                  14.894531                   NaN
+paper_original      gemma_4_26b_a4b   gemma_4_26b_a4b          cot           0.741057                       8.365558                  48.067372                   NaN
+paper_original             qwen3_8b          qwen3_8b few_shot_cot           0.720378                       7.113328                  15.256452                   NaN
+paper_original      gemma_4_26b_a4b   gemma_4_26b_a4b few_shot_cot           0.709429                      10.369538                  48.067372                   NaN
+paper_original          gemma_4_e2b       gemma_4_e2b few_shot_cot           0.691723                       5.900756                   9.543149                   NaN
+paper_original        qwen3_30b_a3b     qwen3_30b_a3b few_shot_cot           0.678294                      13.864884                  57.671558                   NaN
+paper_original          gemma_4_e2b       gemma_4_e2b    zero_shot           0.661894                       5.155816                   9.543149                   NaN
+paper_original        qwen3_30b_a3b     qwen3_30b_a3b    zero_shot           0.656852                      14.622455                  57.672535                   NaN
+paper_original          gemma_4_e2b       gemma_4_e2b          cot           0.645750                       4.450147                   9.543149                   NaN
