@@ -1,4 +1,0 @@
-arc_challenge: 500
-gsm8k: 500
-math_l1_l3: 238
-truthfulqa_mc1: 500

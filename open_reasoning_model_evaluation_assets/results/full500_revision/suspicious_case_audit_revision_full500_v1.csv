@@ -1,0 +1,4 @@
+model,dataset,strategy,n,accuracy,share_has_hash,share_has_think_tags,share_has_boxed,likely_max_token_clipping_512,mean_response_chars,median_response_chars
+phi_4_reasoning,gsm8k,cot,500,0.02,0.856,0.996,0.0,True,1971.528,1980.0
+phi_4_reasoning,gsm8k,few_shot_cot,500,0.018,0.946,0.994,0.0,True,1998.564,2024.0
+phi_4_reasoning,gsm8k,zero_shot,500,0.032,0.828,0.978,0.0,True,1930.606,1972.5
