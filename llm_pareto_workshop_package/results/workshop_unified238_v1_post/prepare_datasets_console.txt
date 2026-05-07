@@ -1,0 +1,22 @@
+
+Preparing dataset: gsm8k
+Saved indices: /home/manikm/llm-pareto-2026/data/indices/gsm8k_indices.csv
+Saved prepared data: /home/manikm/llm-pareto-2026/data/prepared/gsm8k.jsonl
+Total records: 238
+
+Preparing dataset: math_l1_l3
+MATH detected levels: ['1', '2', '3', '4', '5']
+MATH filtered subset size: 238 / 500
+Saved indices: /home/manikm/llm-pareto-2026/data/indices/math_l1_l3_indices.csv
+Saved prepared data: /home/manikm/llm-pareto-2026/data/prepared/math_l1_l3.jsonl
+Total records: 238
+
+Preparing dataset: arc_challenge
+Saved indices: /home/manikm/llm-pareto-2026/data/indices/arc_challenge_indices.csv
+Saved prepared data: /home/manikm/llm-pareto-2026/data/prepared/arc_challenge.jsonl
+Total records: 238
+
+Preparing dataset: truthfulqa_mc1
+Saved indices: /home/manikm/llm-pareto-2026/data/indices/truthfulqa_mc1_indices.csv
+Saved prepared data: /home/manikm/llm-pareto-2026/data/prepared/truthfulqa_mc1.jsonl
+Total records: 238

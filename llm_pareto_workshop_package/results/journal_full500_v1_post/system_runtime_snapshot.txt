@@ -1,0 +1,86 @@
+==================== BASIC SYSTEM INFO ====================
+Mon Apr 20 03:55:36 PM EDT 2026
+HOSTNAME: axis2
+USER: manikm
+PWD: /home/manikm/llm-pareto-2026
+
+OS:
+Linux axis2 5.15.0-152-generic #162-Ubuntu SMP Wed Jul 23 09:48:42 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+
+LSB RELEASE:
+Distributor ID:	Ubuntu
+Description:	Ubuntu 22.04.5 LTS
+Release:	22.04
+Codename:	jammy
+
+==================== PYTHON / PACKAGE INFO ====================
+PYTHON PATH: /home/manikm/med_struct_audit/.venv/bin/python
+Python 3.13.11
+
+PIP PATH: /home/manikm/med_struct_audit/.venv/bin/pip
+pip 26.0.1 from /home/manikm/med_struct_audit/.venv/lib/python3.13/site-packages/pip (python 3.13)
+
+torch: 2.6.0+cu124
+transformers: 5.5.0
+accelerate: 1.13.0
+pandas: 3.0.1
+numpy: 2.4.3
+scipy: 1.17.1
+matplotlib: 3.10.8
+yaml: 6.0.3
+datasets: 4.8.4
+huggingface_hub: 1.9.0
+
+==================== CUDA / GPU INFO ====================
+Mon Apr 20 15:55:39 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.144.03             Driver Version: 550.144.03     CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100 80GB HBM3          Off |   00000000:19:00.0 Off |                    0 |
+| N/A   33C    P0            116W /  700W |   74184MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA H100 80GB HBM3          Off |   00000000:3B:00.0 Off |                    0 |
+| N/A   39C    P0             73W /  700W |       4MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA H100 80GB HBM3          Off |   00000000:4C:00.0 Off |                    0 |
+| N/A   29C    P0            114W /  700W |   78914MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA H100 80GB HBM3          Off |   00000000:5D:00.0 Off |                    0 |
+| N/A   35C    P0            121W /  700W |   78912MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   4  NVIDIA H100 80GB HBM3          Off |   00000000:9B:00.0 Off |                    0 |
+| N/A   39C    P0            121W /  700W |   78912MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   5  NVIDIA H100 80GB HBM3          Off |   00000000:BB:00.0 Off |                    0 |
+| N/A   57C    P0            139W /  700W |   78914MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   6  NVIDIA H100 80GB HBM3          Off |   00000000:CB:00.0 Off |                    0 |
+| N/A   31C    P0             71W /  700W |       4MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   7  NVIDIA H100 80GB HBM3          Off |   00000000:DB:00.0 Off |                    0 |
+| N/A   27C    P0             73W /  700W |       4MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A    260570      C   VLLM::EngineCore                            74174MiB |
+|    2   N/A  N/A    261558      C   VLLM::Worker_TP0                            78904MiB |
+|    3   N/A  N/A    261559      C   VLLM::Worker_TP1                            78902MiB |
+|    4   N/A  N/A    261560      C   VLLM::Worker_TP2                            78902MiB |
+|    5   N/A  N/A    261561      C   VLLM::Worker_TP3                            78904MiB |
++-----------------------------------------------------------------------------------------+
