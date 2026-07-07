@@ -1,0 +1,8 @@
+model_A,strategy_A,model_B,strategy_B,weighted_delta_A_minus_B,raw_two_sided_p,holm_adjusted_p,holm_significant_at_0.05
+gemma_4_26b_a4b,zero_shot,gemma_4_e4b,few_shot_cot,0.03319327731092438,0.022397760223977603,0.08959104089591041,False
+gemma_4_26b_a4b,zero_shot,gemma_4_e4b,cot,0.03529411764705882,0.015198480151984802,0.07599240075992401,False
+gemma_4_26b_a4b,zero_shot,gemma_4_e4b,zero_shot,0.03571428571428571,0.012198780121987801,0.0731926807319268,False
+gemma_4_26b_a4b,zero_shot,gemma_4_26b_a4b,cot,0.03781512605042017,0.0013998600139986002,0.009799020097990201,True
+gemma_4_e4b,few_shot_cot,gemma_4_e4b,cot,0.002100840336134454,0.8777122287771223,1.0,False
+gemma_4_e4b,few_shot_cot,gemma_4_e4b,zero_shot,0.0025210084033613443,0.8726127387261274,1.0,False
+gemma_4_e4b,cot,gemma_4_e4b,zero_shot,0.000420168067226891,0.9673032696730327,1.0,False

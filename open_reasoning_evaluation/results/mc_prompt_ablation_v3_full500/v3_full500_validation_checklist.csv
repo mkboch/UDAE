@@ -1,0 +1,6 @@
+check,status
+All 16 new full-500 rationale conditions present,PASS
+All 24 copied full-500 baseline conditions present,PASS
+No model inference error rows,PASS
+New prompt load mode is bf16 direct/no 4-bit,PASS
+"V3 full-500, not 238",PASS

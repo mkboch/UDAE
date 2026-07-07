@@ -1,0 +1,23 @@
+| tag                    | model                | strategy     |   weighted_acc |   mean_latency_sec |   max_peak_vram_gb |   rank |
+|:-----------------------|:---------------------|:-------------|---------------:|-------------------:|-------------------:|-------:|
+| workshop_unified238_v1 | gemma_4_26b_a4b      | zero_shot    |       0.794118 |            7.28317 |           48.0674  |      1 |
+| workshop_unified238_v1 | gemma_4_e4b          | few_shot_cot |       0.760924 |            3.67717 |           14.8945  |      2 |
+| workshop_unified238_v1 | gemma_4_e4b          | cot          |       0.758824 |            4.72012 |           14.8945  |      3 |
+| workshop_unified238_v1 | gemma_4_e4b          | zero_shot    |       0.758403 |            4.37343 |           14.8945  |      4 |
+| workshop_unified238_v1 | gemma_4_26b_a4b      | cot          |       0.756303 |            8.71471 |           48.0674  |      5 |
+| workshop_unified238_v1 | qwen3_8b             | few_shot_cot |       0.722269 |            7.02457 |           15.2565  |      6 |
+| workshop_unified238_v1 | gemma_4_26b_a4b      | few_shot_cot |       0.709664 |           10.5802  |           48.0674  |      7 |
+| workshop_unified238_v1 | qwen3_30b_a3b        | few_shot_cot |       0.70084  |           14.7006  |           57.6205  |      8 |
+| workshop_unified238_v1 | gemma_4_e2b          | few_shot_cot |       0.687815 |            5.99722 |            9.54315 |      9 |
+| workshop_unified238_v1 | gemma_4_e2b          | zero_shot    |       0.671429 |            5.09781 |            9.54315 |     10 |
+| workshop_unified238_v1 | qwen3_30b_a3b        | zero_shot    |       0.669328 |           15.3011  |           57.6205  |     11 |
+| workshop_unified238_v1 | gemma_4_e2b          | cot          |       0.657983 |            4.42542 |            9.54315 |     12 |
+| workshop_unified238_v1 | qwen3_30b_a3b        | cot          |       0.652941 |           15.2098  |           57.6205  |     13 |
+| workshop_unified238_v1 | qwen3_8b             | zero_shot    |       0.566807 |            7.35415 |           15.2565  |     14 |
+| workshop_unified238_v1 | qwen3_8b             | cot          |       0.565966 |            7.68169 |           15.2565  |     15 |
+| workshop_unified238_v1 | phi_4_mini_reasoning | few_shot_cot |       0.397899 |            8.23168 |            7.14515 |     16 |
+| workshop_unified238_v1 | phi_4_mini_reasoning | cot          |       0.302941 |            8.25544 |            7.14515 |     17 |
+| workshop_unified238_v1 | phi_4_mini_reasoning | zero_shot    |       0.297059 |            8.20894 |            7.14515 |     18 |
+| workshop_unified238_v1 | phi_4_reasoning      | zero_shot    |       0.188235 |            9.56303 |           27.3055  |     19 |
+| workshop_unified238_v1 | phi_4_reasoning      | few_shot_cot |       0.172689 |            9.56622 |           27.3055  |     20 |
+| workshop_unified238_v1 | phi_4_reasoning      | cot          |       0.165546 |            9.63948 |           27.3055  |     21 |

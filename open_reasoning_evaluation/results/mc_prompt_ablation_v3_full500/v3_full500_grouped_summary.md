@@ -1,0 +1,12 @@
+| dataset | strategy | mean_strict_acc | mean_diagnostic_lenient_acc | mean_missing_prediction_rate | mean_final_hash_answer_rate | mean_bare_letter_response_rate | mean_think_tag_rate | mean_latency_sec | total_error_rows |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| arc_challenge | cot_rationale_final_letter | 0.892500 | 0.920000 | 0.073500 | 0.926500 | 0.000000 | 0.276500 | 12.089690 | 0 |
+| arc_challenge | few_shot_cot_rationale_final_letter | 0.822500 | 0.858000 | 0.098500 | 0.901500 | 0.000000 | 0.274500 | 7.955550 | 0 |
+| arc_challenge | orig_cot_answer_only | 0.579000 | 0.729000 | 0.032500 | 0.000000 | 0.392500 | 0.471500 | 3.294242 | 0 |
+| arc_challenge | orig_few_shot_cot_answer_only | 0.637500 | 0.695500 | 0.005500 | 0.355500 | 0.251500 | 0.408500 | 3.236346 | 0 |
+| arc_challenge | orig_zero_shot_answer_only | 0.626500 | 0.788000 | 0.015000 | 0.000000 | 0.381000 | 0.425500 | 3.297762 | 0 |
+| truthfulqa_mc1 | cot_rationale_final_letter | 0.661000 | 0.793000 | 0.238000 | 0.762000 | 0.000000 | 0.343000 | 12.921236 | 0 |
+| truthfulqa_mc1 | few_shot_cot_rationale_final_letter | 0.662000 | 0.790000 | 0.253000 | 0.747000 | 0.000000 | 0.332500 | 8.095032 | 0 |
+| truthfulqa_mc1 | orig_cot_answer_only | 0.840500 | 0.621000 | 0.085500 | 0.000000 | 0.251500 | 0.475000 | 3.858382 | 0 |
+| truthfulqa_mc1 | orig_few_shot_cot_answer_only | 0.887000 | 0.626000 | 0.015000 | 0.004000 | 0.437500 | 0.473500 | 2.997944 | 0 |
+| truthfulqa_mc1 | orig_zero_shot_answer_only | 0.870500 | 0.687000 | 0.036500 | 0.000000 | 0.352500 | 0.440500 | 3.155499 | 0 |

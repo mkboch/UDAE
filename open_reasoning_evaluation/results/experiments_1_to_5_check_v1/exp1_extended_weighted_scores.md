@@ -1,0 +1,23 @@
+| tag                | model                | strategy     |   weighted_acc |   mean_latency_sec |   max_peak_vram_gb |   rank |
+|:-------------------|:---------------------|:-------------|---------------:|-------------------:|-------------------:|-------:|
+| journal_full500_v1 | gemma_4_26b_a4b      | zero_shot    |       0.783583 |            7.06956 |           48.0674  |      1 |
+| journal_full500_v1 | gemma_4_e4b          | few_shot_cot |       0.754183 |            3.75845 |           14.8945  |      2 |
+| journal_full500_v1 | gemma_4_e4b          | cot          |       0.75242  |            4.80789 |           14.8945  |      3 |
+| journal_full500_v1 | gemma_4_e4b          | zero_shot    |       0.752276 |            4.4539  |           14.8945  |      4 |
+| journal_full500_v1 | gemma_4_26b_a4b      | cot          |       0.741057 |            8.36556 |           48.0674  |      5 |
+| journal_full500_v1 | qwen3_8b             | few_shot_cot |       0.720378 |            7.11333 |           15.2565  |      6 |
+| journal_full500_v1 | gemma_4_26b_a4b      | few_shot_cot |       0.709429 |           10.3695  |           48.0674  |      7 |
+| journal_full500_v1 | gemma_4_e2b          | few_shot_cot |       0.691723 |            5.90076 |            9.54315 |      8 |
+| journal_full500_v1 | qwen3_30b_a3b        | few_shot_cot |       0.678294 |           13.8649  |           57.6723  |      9 |
+| journal_full500_v1 | gemma_4_e2b          | zero_shot    |       0.661894 |            5.15582 |            9.54315 |     10 |
+| journal_full500_v1 | qwen3_30b_a3b        | zero_shot    |       0.656852 |           14.6225  |           57.6733  |     11 |
+| journal_full500_v1 | gemma_4_e2b          | cot          |       0.64575  |            4.45015 |            9.54315 |     12 |
+| journal_full500_v1 | qwen3_30b_a3b        | cot          |       0.638968 |           14.8564  |           57.6742  |     13 |
+| journal_full500_v1 | qwen3_8b             | zero_shot    |       0.546765 |            7.40641 |           15.2565  |     14 |
+| journal_full500_v1 | qwen3_8b             | cot          |       0.54617  |            7.7906  |           15.2565  |     15 |
+| journal_full500_v1 | phi_4_mini_reasoning | few_shot_cot |       0.394227 |            8.16368 |            7.14515 |     16 |
+| journal_full500_v1 | phi_4_mini_reasoning | cot          |       0.286807 |            8.14557 |            7.14515 |     17 |
+| journal_full500_v1 | phi_4_mini_reasoning | zero_shot    |       0.28063  |            8.05256 |            7.14515 |     18 |
+| journal_full500_v1 | phi_4_reasoning      | zero_shot    |       0.178545 |            9.62577 |           27.3055  |     19 |
+| journal_full500_v1 | phi_4_reasoning      | few_shot_cot |       0.165224 |            9.68796 |           27.3055  |     20 |
+| journal_full500_v1 | phi_4_reasoning      | cot          |       0.164782 |            9.65021 |           27.3055  |     21 |

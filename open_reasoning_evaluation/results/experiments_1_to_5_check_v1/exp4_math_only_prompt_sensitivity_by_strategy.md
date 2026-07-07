@@ -1,0 +1,23 @@
+| model                | strategy     |   math_only_mean_acc |   rank |
+|:---------------------|:-------------|---------------------:|-------:|
+| gemma_4_e4b          | cot          |            0.728992  |      1 |
+| gemma_4_26b_a4b      | cot          |            0.712185  |      2 |
+| qwen3_30b_a3b        | cot          |            0.665966  |      3 |
+| gemma_4_e2b          | cot          |            0.632353  |      4 |
+| qwen3_8b             | cot          |            0.533613  |      5 |
+| phi_4_mini_reasoning | cot          |            0.216387  |      6 |
+| phi_4_reasoning      | cot          |            0.0105042 |      7 |
+| qwen3_8b             | few_shot_cot |            0.728992  |      1 |
+| gemma_4_e4b          | few_shot_cot |            0.722689  |      2 |
+| qwen3_30b_a3b        | few_shot_cot |            0.710084  |      3 |
+| gemma_4_e2b          | few_shot_cot |            0.69958   |      4 |
+| gemma_4_26b_a4b      | few_shot_cot |            0.62605   |      5 |
+| phi_4_mini_reasoning | few_shot_cot |            0.352941  |      6 |
+| phi_4_reasoning      | few_shot_cot |            0.0252101 |      7 |
+| gemma_4_26b_a4b      | zero_shot    |            0.743697  |      1 |
+| gemma_4_e4b          | zero_shot    |            0.710084  |      2 |
+| qwen3_30b_a3b        | zero_shot    |            0.682773  |      3 |
+| gemma_4_e2b          | zero_shot    |            0.655462  |      4 |
+| qwen3_8b             | zero_shot    |            0.504202  |      5 |
+| phi_4_mini_reasoning | zero_shot    |            0.216387  |      6 |
+| phi_4_reasoning      | zero_shot    |            0.039916  |      7 |

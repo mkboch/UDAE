@@ -1,0 +1,5 @@
+dataset,expected_conditions,expected_n,conditions_present,min_n_from_filename,max_n_from_filename,min_n_rows,max_n_rows,status
+arc_challenge,21,500,21,500,500,500,500,PASS
+gsm8k,21,500,21,500,500,500,500,PASS
+math_l1_l3,21,238,21,238,238,238,238,PASS
+truthfulqa_mc1,21,500,21,500,500,500,500,PASS

@@ -1,0 +1,9 @@
+| model                |   best_rank |   worst_rank |   math_only_rank_range |
+|:---------------------|------------:|-------------:|-----------------------:|
+| gemma_4_26b_a4b      |           1 |            5 |                      4 |
+| qwen3_8b             |           1 |            5 |                      4 |
+| gemma_4_e4b          |           1 |            2 |                      1 |
+| gemma_4_e2b          |           4 |            4 |                      0 |
+| phi_4_mini_reasoning |           6 |            6 |                      0 |
+| phi_4_reasoning      |           7 |            7 |                      0 |
+| qwen3_30b_a3b        |           3 |            3 |                      0 |
