@@ -10,7 +10,7 @@
 | New prompt load mode is bf16 direct/no 4-bit | PASS |
 | V3 full-500, not 238 | PASS |
 
-## Reviewer-facing prompt-ablation table
+## Compact prompt-ablation table
 
 | model | dataset | comparison | old_strict_acc | new_strict_finalline_acc | delta_new_minus_old_strict | old_lenient_acc | new_lenient_acc | delta_new_minus_old_lenient | old_missing_prediction_rate | new_missing_prediction_rate | new_final_hash_answer_rate | old_bare_letter_response_rate | new_bare_letter_response_rate | old_think_tag_rate | new_think_tag_rate | old_mean_latency_sec | new_mean_latency_sec |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -54,10 +54,10 @@ The V3 ablation uses the full 500 ARC-Challenge and TruthfulQA MC1 examples from
 - `review_response_runs/mc_prompt_ablation_v3_full500/posthoc_summary/v3_full500_condition_summary.csv`
 - `review_response_runs/mc_prompt_ablation_v3_full500/posthoc_summary/v3_full500_grouped_summary.csv`
 - `review_response_runs/mc_prompt_ablation_v3_full500/posthoc_summary/v3_full500_pairwise_prompt_comparison.csv`
-- `review_response_runs/mc_prompt_ablation_v3_full500/posthoc_summary/v3_full500_reviewer_prompt_ablation_table.csv`
+- `review_response_runs/mc_prompt_ablation_v3_full500/posthoc_summary/v3_full500_prompt_ablation_table.csv`
 - `review_response_runs/mc_prompt_ablation_v3_full500/posthoc_summary/v3_full500_validation_checklist.csv`
 - `review_response_runs/mc_prompt_ablation_v3_full500/posthoc_summary/v3_full500_condition_summary.md`
 - `review_response_runs/mc_prompt_ablation_v3_full500/posthoc_summary/v3_full500_grouped_summary.md`
 - `review_response_runs/mc_prompt_ablation_v3_full500/posthoc_summary/v3_full500_pairwise_prompt_comparison.md`
-- `review_response_runs/mc_prompt_ablation_v3_full500/posthoc_summary/v3_full500_reviewer_prompt_ablation_table.md`
+- `review_response_runs/mc_prompt_ablation_v3_full500/posthoc_summary/v3_full500_prompt_ablation_table.md`
 - `review_response_runs/mc_prompt_ablation_v3_full500/posthoc_summary/v3_full500_validation_checklist.md`

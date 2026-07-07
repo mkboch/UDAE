@@ -167,16 +167,16 @@ for model in MODELS:
 pairs_df = pd.DataFrame(pair_rows)
 save(pairs_df, "v3_full500_pairwise_prompt_comparison")
 
-# Compact reviewer-facing table
-reviewer_table = pairs_df.copy()
+# Compact prompt-ablation table
+prompt_table = pairs_df.copy()
 for c in [
     "old_strict_acc", "new_strict_finalline_acc", "delta_new_minus_old_strict",
     "old_lenient_acc", "new_lenient_acc", "delta_new_minus_old_lenient",
     "new_final_hash_answer_rate", "new_missing_prediction_rate"
 ]:
-    if c in reviewer_table.columns:
-        reviewer_table[c] = reviewer_table[c].astype(float).round(3)
-save(reviewer_table, "v3_full500_reviewer_prompt_ablation_table")
+    if c in prompt_table.columns:
+        prompt_table[c] = prompt_table[c].astype(float).round(3)
+save(prompt_table, "v3_full500_prompt_ablation_table")
 
 # Validation checklist
 valid = []
@@ -210,9 +210,9 @@ status_lines.append("## Validation")
 status_lines.append("")
 status_lines.append(md_table(valid_df))
 status_lines.append("")
-status_lines.append("## Reviewer-facing prompt-ablation table")
+status_lines.append("## Compact prompt-ablation table")
 status_lines.append("")
-status_lines.append(md_table(reviewer_table))
+status_lines.append(md_table(prompt_table))
 status_lines.append("")
 status_lines.append("## Grouped summary")
 status_lines.append("")
@@ -241,8 +241,8 @@ print("V3 FULL500 POSTHOC SUMMARY")
 print("============================================================")
 print(valid_df.to_string(index=False))
 print()
-print("Reviewer table:")
-print(reviewer_table.to_string(index=False))
+print("Compact prompt-ablation table:")
+print(prompt_table.to_string(index=False))
 print()
 print("Grouped summary:")
 print(grouped.to_string(index=False))
