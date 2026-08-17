@@ -59,7 +59,9 @@ This repository contains the public code, configuration files, selected benchmar
   - Full-500 multiple-choice prompt-protocol ablation outputs and summaries.
 
 - `environment/`
-  - Retained software-environment and package-version records for the main-result and follow-up audit environments.
+  - `software_package_manifest.csv`: exact package versions for the main-result environment.
+  - `main_environment_package_snapshot.csv`: retained package snapshot for the main-result environment.
+  - `followup_audit_environment.txt`: software and hardware record for the follow-up audit environment.
 
 - `provenance/`
   - Retained audit/provenance material supporting the released artifact.
