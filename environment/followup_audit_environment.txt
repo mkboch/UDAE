@@ -1,0 +1,22 @@
+Conda environment: miagentwrite_vllm_cu124_py310
+Python executable: /home/manikm/miniconda3/envs/miagentwrite_vllm_cu124_py310/bin/python
+Python: 3.10.20
+PyTorch: 2.6.0+cu124
+transformers: 5.12.1
+tokenizers: 0.22.2
+datasets: 5.0.0
+accelerate: 1.14.0
+pandas: 2.3.3
+numpy: 2.2.6
+bitsandbytes: not installed
+PyTorch CUDA build: 12.4
+CUDA available: True
+GPU: NVIDIA H100 80GB HBM3
+NVIDIA H100 80GB HBM3, 610.43.02, 81559 MiB
+NVIDIA H100 80GB HBM3, 610.43.02, 81559 MiB
+NVIDIA H100 80GB HBM3, 610.43.02, 81559 MiB
+NVIDIA H100 80GB HBM3, 610.43.02, 81559 MiB
+NVIDIA H100 80GB HBM3, 610.43.02, 81559 MiB
+NVIDIA H100 80GB HBM3, 610.43.02, 81559 MiB
+NVIDIA H100 80GB HBM3, 610.43.02, 81559 MiB
+NVIDIA H100 80GB HBM3, 610.43.02, 81559 MiB

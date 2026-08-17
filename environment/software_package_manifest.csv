@@ -1,0 +1,9 @@
+package,version
+python,3.13.11
+torch,2.9.1
+transformers,4.57.6
+tokenizers,0.22.2
+datasets,4.8.4
+accelerate,1.12.0
+pandas,3.0.0
+numpy,2.2.6

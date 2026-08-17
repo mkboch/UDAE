@@ -1,0 +1,716 @@
+==================== BASIC SYSTEM INFO ====================
+Tue Apr  7 11:29:45 AM EDT 2026
+HOSTNAME: axis2
+USER: manikm
+PWD: /home/manikm/llm-pareto-2026
+OS:
+Linux axis2 5.15.0-152-generic #162-Ubuntu SMP Wed Jul 23 09:48:42 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+
+LSB RELEASE:
+Distributor ID:	Ubuntu
+Description:	Ubuntu 22.04.5 LTS
+Release:	22.04
+Codename:	jammy
+
+==================== PYTHON / PACKAGE INFO ====================
+PYTHON PATH: /home/manikm/med_struct_audit/.venv/bin/python
+Python 3.13.11
+
+PIP PATH: /home/manikm/med_struct_audit/.venv/bin/pip
+pip 26.0.1 from /home/manikm/med_struct_audit/.venv/lib/python3.13/site-packages/pip (python 3.13)
+
+INSTALLED CORE PACKAGES:
+torch: 2.6.0+cu124
+transformers: 5.5.0
+accelerate: 1.13.0
+pandas: 3.0.1
+numpy: 2.4.3
+scipy: 1.17.1
+matplotlib: 3.10.8
+seaborn: NOT FOUND (No module named 'seaborn')
+sklearn: NOT FOUND (No module named 'sklearn')
+huggingface_hub: 1.9.0
+
+==================== CUDA / GPU INFO ====================
+Field "cuda_version" is not a valid field to query.
+
+
+Tue Apr  7 11:29:48 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.144.03             Driver Version: 550.144.03     CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100 80GB HBM3          Off |   00000000:19:00.0 Off |                    0 |
+| N/A   32C    P0            116W /  700W |   74184MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA H100 80GB HBM3          Off |   00000000:3B:00.0 Off |                    0 |
+| N/A   38C    P0             72W /  700W |       4MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA H100 80GB HBM3          Off |   00000000:4C:00.0 Off |                    0 |
+| N/A   29C    P0            114W /  700W |   78912MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA H100 80GB HBM3          Off |   00000000:5D:00.0 Off |                    0 |
+| N/A   35C    P0            120W /  700W |   78912MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   4  NVIDIA H100 80GB HBM3          Off |   00000000:9B:00.0 Off |                    0 |
+| N/A   38C    P0            120W /  700W |   78912MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   5  NVIDIA H100 80GB HBM3          Off |   00000000:BB:00.0 Off |                    0 |
+| N/A   57C    P0            139W /  700W |   78912MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   6  NVIDIA H100 80GB HBM3          Off |   00000000:CB:00.0 Off |                    0 |
+| N/A   35C    P0            118W /  700W |   59044MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   7  NVIDIA H100 80GB HBM3          Off |   00000000:DB:00.0 Off |                    0 |
+| N/A   26C    P0             72W /  700W |       4MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A    260570      C   VLLM::EngineCore                            74174MiB |
+|    2   N/A  N/A    261558      C   VLLM::Worker_TP0                            78902MiB |
+|    3   N/A  N/A    261559      C   VLLM::Worker_TP1                            78902MiB |
+|    4   N/A  N/A    261560      C   VLLM::Worker_TP2                            78902MiB |
+|    5   N/A  N/A    261561      C   VLLM::Worker_TP3                            78902MiB |
+|    6   N/A  N/A    253170      C   python                                      59016MiB |
++-----------------------------------------------------------------------------------------+
+
+==================== GIT INFO ====================
+REPO TOPLEVEL:
+
+CURRENT BRANCH:
+
+LATEST COMMIT:
+
+REMOTE URLS:
+
+==================== REPO FILE TREE (TOP 3 LEVELS) ====================
+.
+./analysis
+./analysis/finalize_complete_plan_results.py
+./analysis/final_v2_aggregate.py
+./analysis/final_v2_error_pack.py
+./analysis/final_v2_figures.py
+./analysis/final_v2_pairwise.py
+./analysis/print_results_for_paper.py
+./analysis/__pycache__
+./analysis/__pycache__/aggregate_by_tag.cpython-313.pyc
+./analysis/__pycache__/aggregate_full_feasible.cpython-313.pyc
+./analysis/__pycache__/error_analysis.cpython-313.pyc
+./analysis/__pycache__/final_aggregate.cpython-313.pyc
+./analysis/__pycache__/final_error_pack.cpython-313.pyc
+./analysis/__pycache__/finalize_complete_plan_results.cpython-313.pyc
+./analysis/__pycache__/final_pairwise_stats.cpython-313.pyc
+./analysis/__pycache__/final_pareto.cpython-313.pyc
+./analysis/__pycache__/final_prompting_report.cpython-313.pyc
+./analysis/__pycache__/final_scaling.cpython-313.pyc
+./analysis/__pycache__/final_v2_aggregate.cpython-313.pyc
+./analysis/__pycache__/final_v2_error_pack.cpython-313.pyc
+./analysis/__pycache__/final_v2_figures.cpython-313.pyc
+./analysis/__pycache__/final_v2_pairwise.cpython-313.pyc
+./analysis/__pycache__/final_weighted_summary.cpython-313.pyc
+./analysis/__pycache__/__init__.cpython-313.pyc
+./analysis/__pycache__/pairwise_by_tag.cpython-313.pyc
+./analysis/__pycache__/pairwise_stats.cpython-313.pyc
+./analysis/__pycache__/pareto.cpython-313.pyc
+./analysis/__pycache__/prompting_ablation.cpython-313.pyc
+./analysis/__pycache__/repair_pairwise_stats_final.cpython-313.pyc
+./analysis/__pycache__/scaling.cpython-313.pyc
+./analysis/repair_pairwise_stats_final.py
+./archive_cleanup
+./archive_cleanup/aggregated
+./archive_cleanup/aggregated/aggregated_results.csv
+./archive_cleanup/aggregated/error_analysis_summary.csv
+./archive_cleanup/aggregated/pairwise_stats.csv
+./archive_cleanup/aggregated/pareto_results.csv
+./archive_cleanup/aggregated/prompting_accuracy_table.csv
+./archive_cleanup/aggregated/prompting_latency_table.csv
+./archive_cleanup/figures
+./archive_cleanup/figures/pareto_frontier.png
+./archive_cleanup/figures/prompting_ablation.png
+./archive_cleanup/figures/prompting_latency.png
+./archive_cleanup/figures/scaling_accuracy_vs_active_params.png
+./archive_cleanup/raw
+./archive_cleanup/raw/eval100_gemma_e2b_v1__ALL_RUNS__n100.csv
+./archive_cleanup/raw/eval100_gemma_e2b_v1__ALL_RUNS__n200.csv
+./archive_cleanup/raw/eval100_gemma_e2b_v1__gemma_4_e2b__arc_challenge__cot__n100.csv
+./archive_cleanup/raw/eval100_gemma_e2b_v1__gemma_4_e2b__arc_challenge__zero_shot__n100.csv
+./archive_cleanup/raw/eval100_gemma_e2b_v1__gemma_4_e2b__gsm8k__cot__n100.csv
+./archive_cleanup/raw/eval100_phi_v1__ALL_RUNS__n100.csv
+./archive_cleanup/raw/eval100_phi_v1__ALL_RUNS__n200.csv
+./archive_cleanup/raw/eval100_phi_v1__phi_4_mini__arc_challenge__cot__n100.csv
+./archive_cleanup/raw/eval100_phi_v1__phi_4_mini__arc_challenge__zero_shot__n100.csv
+./archive_cleanup/raw/eval100_phi_v1__phi_4_mini__gsm8k__cot__n100.csv
+./archive_cleanup/raw/eval50_gemma_e2b_v1__ALL_RUNS__n100.csv
+./archive_cleanup/raw/eval50_gemma_e2b_v1__ALL_RUNS__n50.csv
+./archive_cleanup/raw/eval50_gemma_e2b_v1__gemma_4_e2b__arc_challenge__cot__n50.csv
+./archive_cleanup/raw/eval50_gemma_e2b_v1__gemma_4_e2b__arc_challenge__zero_shot__n50.csv
+./archive_cleanup/raw/eval50_gemma_e2b_v1__gemma_4_e2b__gsm8k__cot__n50.csv
+./archive_cleanup/raw/eval50_phi_v1__ALL_RUNS__n100.csv
+./archive_cleanup/raw/eval50_phi_v1__ALL_RUNS__n50.csv
+./archive_cleanup/raw/eval50_phi_v1__phi_4_mini__arc_challenge__cot__n50.csv
+./archive_cleanup/raw/eval50_phi_v1__phi_4_mini__arc_challenge__zero_shot__n50.csv
+./archive_cleanup/raw/eval50_phi_v1__phi_4_mini__gsm8k__cot__n50.csv
+./archive_cleanup/raw/full_feasible_v1__ALL_RUNS__n300.csv
+./archive_cleanup/raw/pilot_gemma_e2b_v2__ALL_RUNS__n10.csv
+./archive_cleanup/raw/pilot_gemma_e2b_v2__ALL_RUNS__n20.csv
+./archive_cleanup/raw/pilot_gemma_e2b_v2__gemma_4_e2b__arc_challenge__cot__n10.csv
+./archive_cleanup/raw/pilot_gemma_e2b_v2__gemma_4_e2b__arc_challenge__zero_shot__n10.csv
+./archive_cleanup/raw/pilot_gemma_e2b_v2__gemma_4_e2b__gsm8k__cot__n10.csv
+./archive_cleanup/raw/pilot_phi_v2__ALL_RUNS__n10.csv
+./archive_cleanup/raw/pilot_phi_v2__ALL_RUNS__n20.csv
+./archive_cleanup/raw/pilot_phi_v2__phi_4_mini__arc_challenge__cot__n10.csv
+./archive_cleanup/raw/pilot_phi_v2__phi_4_mini__arc_challenge__zero_shot__n10.csv
+./archive_cleanup/raw/pilot_phi_v2__phi_4_mini__gsm8k__cot__n10.csv
+./archive_cleanup/scripts
+./archive_cleanup/scripts/aggregate_full_feasible.py
+./archive_cleanup/scripts/error_analysis.py
+./archive_cleanup/scripts/pairwise_stats.py
+./archive_cleanup/scripts/pareto.py
+./archive_cleanup/scripts/prompting_ablation.py
+./archive_cleanup/scripts/scaling.py
+./archive_model_swap
+./archive_model_swap/aggregated
+./archive_model_swap/aggregated/aggregated_final.csv
+./archive_model_swap/aggregated/aggregated_full_feasible_v1.csv
+./archive_model_swap/aggregated/error_pack_for_manual_review.csv
+./archive_model_swap/aggregated/pairwise_stats_final.csv
+./archive_model_swap/aggregated/prompting_accuracy_final.csv
+./archive_model_swap/aggregated/prompting_latency_final.csv
+./archive_model_swap/aggregated/raw_concat_final.csv
+./archive_model_swap/aggregated/weighted_summary_final.csv
+./archive_model_swap/configs
+./archive_model_swap/configs/models.yaml.bak.20260404_162726
+./archive_model_swap/figures
+./archive_model_swap/figures/pareto_cot.png
+./archive_model_swap/figures/pareto_few_shot_cot.png
+./archive_model_swap/figures/pareto_zero_shot.png
+./archive_model_swap/figures/prompting_accuracy_arc_challenge.png
+./archive_model_swap/figures/prompting_accuracy_gsm8k.png
+./archive_model_swap/figures/prompting_accuracy_math_l1_l3.png
+./archive_model_swap/figures/prompting_accuracy_truthfulqa_mc1.png
+./archive_model_swap/figures/scaling_final.png
+./archive_model_swap/raw
+./archive_model_swap/raw/full_feasible_v1__gemma_4_e2b__arc_challenge__cot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__gemma_4_e2b__arc_challenge__few_shot_cot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__gemma_4_e2b__arc_challenge__zero_shot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__gemma_4_e2b__gsm8k__cot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__gemma_4_e2b__gsm8k__few_shot_cot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__gemma_4_e2b__gsm8k__zero_shot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__gemma_4_e2b__math_l1_l3__cot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__gemma_4_e2b__math_l1_l3__few_shot_cot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__gemma_4_e2b__math_l1_l3__zero_shot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__gemma_4_e2b__truthfulqa_mc1__cot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__gemma_4_e2b__truthfulqa_mc1__few_shot_cot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__gemma_4_e2b__truthfulqa_mc1__zero_shot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__phi_4_mini__arc_challenge__cot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__phi_4_mini__arc_challenge__few_shot_cot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__phi_4_mini__arc_challenge__zero_shot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__phi_4_mini__gsm8k__cot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__phi_4_mini__gsm8k__few_shot_cot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__phi_4_mini__gsm8k__zero_shot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__phi_4_mini__math_l1_l3__cot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__phi_4_mini__math_l1_l3__few_shot_cot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__phi_4_mini__math_l1_l3__zero_shot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__phi_4_mini__truthfulqa_mc1__cot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__phi_4_mini__truthfulqa_mc1__few_shot_cot__n100.csv
+./archive_model_swap/raw/full_feasible_v1__phi_4_mini__truthfulqa_mc1__zero_shot__n100.csv
+./archive_model_swap/scripts
+./archive_model_swap/scripts/aggregate_by_tag.py
+./archive_model_swap/scripts/final_aggregate.py
+./archive_model_swap/scripts/final_error_pack.py
+./archive_model_swap/scripts/final_pairwise_stats.py
+./archive_model_swap/scripts/final_pareto.py
+./archive_model_swap/scripts/final_prompting_report.py
+./archive_model_swap/scripts/final_scaling.py
+./archive_model_swap/scripts/final_weighted_summary.py
+./archive_model_swap/scripts/__init__.py
+./archive_model_swap/scripts/pairwise_by_tag.py
+./archive_model_swap/scripts/reproduce_final.sh
+./archive_model_swap/scripts/run_full_feasible_matrix.sh
+./complete_plan_v2.log
+./complete_plan_v3.log
+./configs
+./configs/datasets.yaml
+./configs/models.yaml
+./configs/prompts.yaml
+./coverage_v2.log
+./data
+./data/indices
+./data/indices/arc_challenge_indices.csv
+./data/indices/gsm8k_indices.csv
+./data/indices/math_l1_l3_indices.csv
+./data/indices/truthfulqa_mc1_indices.csv
+./data/__init__.py
+./data/prepared
+./data/prepared/arc_challenge.jsonl
+./data/prepare_datasets.py
+./data/prepared/gsm8k.jsonl
+./data/prepared/math_l1_l3.jsonl
+./data/prepared/truthfulqa_mc1.jsonl
+./data/__pycache__
+./data/__pycache__/prepare_datasets.cpython-313.pyc
+./evaluation
+./evaluation/extractor.py
+./evaluation/grader.py
+./evaluation/__init__.py
+./evaluation/metrics.py
+./evaluation/__pycache__
+./evaluation/__pycache__/extractor.cpython-313.pyc
+./evaluation/__pycache__/grader.cpython-313.pyc
+./evaluation/__pycache__/__init__.cpython-313.pyc
+./evaluation/__pycache__/metrics.cpython-313.pyc
+./experiments
+./experiments/__init__.py
+./experiments/__pycache__
+./experiments/__pycache__/__init__.cpython-313.pyc
+./experiments/__pycache__/run_benchmark_final_clean.cpython-313.pyc
+./experiments/__pycache__/run_benchmark_with_fallback.cpython-313.pyc
+./experiments/__pycache__/run_experiment.cpython-313.pyc
+./experiments/__pycache__/run_single.cpython-313.pyc
+./experiments/run_benchmark_final_clean.py
+./experiments/run_benchmark_with_fallback.py
+./experiments/run_experiment.py
+./experiments/run_single.py
+./figures
+./figures/pareto_cot.png
+./figures/pareto_few_shot_cot.png
+./figures/pareto_zero_shot.png
+./figures/prompting_accuracy_arc_challenge.png
+./figures/prompting_accuracy_gsm8k.png
+./figures/prompting_accuracy_math_l1_l3.png
+./figures/prompting_accuracy_truthfulqa_mc1.png
+./figures/scaling_final.png
+./finalize_complete_plan_v2.log
+./full_feasible_v1.log
+./.gitignore
+./logs
+./models
+./models/inference.py
+./models/__init__.py
+./models/loader.py
+./models/__pycache__
+./models/__pycache__/inference.cpython-313.pyc
+./models/__pycache__/__init__.cpython-313.pyc
+./models/__pycache__/loader.cpython-313.pyc
+./notebooks
+./prompts
+./prompts/builder.py
+./prompts/few_shot_examples.json
+./prompts/__init__.py
+./prompts/__pycache__
+./prompts/__pycache__/builder.cpython-313.pyc
+./prompts/__pycache__/__init__.cpython-313.pyc
+./README_inventory.txt
+./README.md
+./reproduce.sh
+./requirements.txt
+./results
+./results/aggregated
+./results/aggregated/aggregated_final.csv
+./results/aggregated/error_pack_for_manual_review.csv
+./results/aggregated/pairwise_stats_final.csv
+./results/aggregated/prompting_accuracy_final.csv
+./results/aggregated/prompting_latency_final.csv
+./results/aggregated/raw_concat_final.csv
+./results/aggregated/weighted_summary_final.csv
+./results/raw
+./results/raw/complete_plan_v2__gemma_4_26b_a4b__ALL_RUNS__n300.csv
+./results/raw/complete_plan_v2__gemma_4_26b_a4b__arc_challenge__cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_26b_a4b__arc_challenge__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_26b_a4b__arc_challenge__zero_shot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_26b_a4b__gsm8k__cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_26b_a4b__gsm8k__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_26b_a4b__gsm8k__zero_shot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_26b_a4b__math_l1_l3__cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_26b_a4b__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_26b_a4b__math_l1_l3__zero_shot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_26b_a4b__truthfulqa_mc1__cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_26b_a4b__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_26b_a4b__truthfulqa_mc1__zero_shot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e2b__ALL_RUNS__n300.csv
+./results/raw/complete_plan_v2__gemma_4_e2b__arc_challenge__cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e2b__arc_challenge__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e2b__arc_challenge__zero_shot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e2b__gsm8k__cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e2b__gsm8k__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e2b__gsm8k__zero_shot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e2b__math_l1_l3__cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e2b__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e2b__math_l1_l3__zero_shot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e2b__truthfulqa_mc1__cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e2b__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e2b__truthfulqa_mc1__zero_shot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e4b__ALL_RUNS__n300.csv
+./results/raw/complete_plan_v2__gemma_4_e4b__arc_challenge__cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e4b__arc_challenge__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e4b__arc_challenge__zero_shot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e4b__gsm8k__cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e4b__gsm8k__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e4b__gsm8k__zero_shot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e4b__math_l1_l3__cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e4b__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e4b__math_l1_l3__zero_shot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e4b__truthfulqa_mc1__cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e4b__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__gemma_4_e4b__truthfulqa_mc1__zero_shot__n100.csv
+./results/raw/complete_plan_v2__phi_4_mini_reasoning__ALL_RUNS__n300.csv
+./results/raw/complete_plan_v2__phi_4_mini_reasoning__arc_challenge__cot__n100.csv
+./results/raw/complete_plan_v2__phi_4_mini_reasoning__arc_challenge__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__phi_4_mini_reasoning__arc_challenge__zero_shot__n100.csv
+./results/raw/complete_plan_v2__phi_4_mini_reasoning__gsm8k__cot__n100.csv
+./results/raw/complete_plan_v2__phi_4_mini_reasoning__gsm8k__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__phi_4_mini_reasoning__gsm8k__zero_shot__n100.csv
+./results/raw/complete_plan_v2__phi_4_mini_reasoning__math_l1_l3__cot__n100.csv
+./results/raw/complete_plan_v2__phi_4_mini_reasoning__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__phi_4_mini_reasoning__math_l1_l3__zero_shot__n100.csv
+./results/raw/complete_plan_v2__phi_4_mini_reasoning__truthfulqa_mc1__cot__n100.csv
+./results/raw/complete_plan_v2__phi_4_mini_reasoning__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__phi_4_mini_reasoning__truthfulqa_mc1__zero_shot__n100.csv
+./results/raw/complete_plan_v2__phi_4_reasoning__ALL_RUNS__n300.csv
+./results/raw/complete_plan_v2__phi_4_reasoning__arc_challenge__cot__n100.csv
+./results/raw/complete_plan_v2__phi_4_reasoning__arc_challenge__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__phi_4_reasoning__arc_challenge__zero_shot__n100.csv
+./results/raw/complete_plan_v2__phi_4_reasoning__gsm8k__cot__n100.csv
+./results/raw/complete_plan_v2__phi_4_reasoning__gsm8k__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__phi_4_reasoning__gsm8k__zero_shot__n100.csv
+./results/raw/complete_plan_v2__phi_4_reasoning__math_l1_l3__cot__n100.csv
+./results/raw/complete_plan_v2__phi_4_reasoning__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__phi_4_reasoning__math_l1_l3__zero_shot__n100.csv
+./results/raw/complete_plan_v2__phi_4_reasoning__truthfulqa_mc1__cot__n100.csv
+./results/raw/complete_plan_v2__phi_4_reasoning__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__phi_4_reasoning__truthfulqa_mc1__zero_shot__n100.csv
+./results/raw/complete_plan_v2__qwen3_30b_a3b__ALL_RUNS__n300.csv
+./results/raw/complete_plan_v2__qwen3_30b_a3b__arc_challenge__cot__n100.csv
+./results/raw/complete_plan_v2__qwen3_30b_a3b__arc_challenge__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__qwen3_30b_a3b__arc_challenge__zero_shot__n100.csv
+./results/raw/complete_plan_v2__qwen3_30b_a3b__gsm8k__cot__n100.csv
+./results/raw/complete_plan_v2__qwen3_30b_a3b__gsm8k__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__qwen3_30b_a3b__gsm8k__zero_shot__n100.csv
+./results/raw/complete_plan_v2__qwen3_30b_a3b__math_l1_l3__cot__n100.csv
+./results/raw/complete_plan_v2__qwen3_30b_a3b__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__qwen3_30b_a3b__math_l1_l3__zero_shot__n100.csv
+./results/raw/complete_plan_v2__qwen3_30b_a3b__truthfulqa_mc1__cot__n100.csv
+./results/raw/complete_plan_v2__qwen3_30b_a3b__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__qwen3_30b_a3b__truthfulqa_mc1__zero_shot__n100.csv
+./results/raw/complete_plan_v2__qwen3_8b__ALL_RUNS__n300.csv
+./results/raw/complete_plan_v2__qwen3_8b__arc_challenge__cot__n100.csv
+./results/raw/complete_plan_v2__qwen3_8b__arc_challenge__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__qwen3_8b__arc_challenge__zero_shot__n100.csv
+./results/raw/complete_plan_v2__qwen3_8b__gsm8k__cot__n100.csv
+./results/raw/complete_plan_v2__qwen3_8b__gsm8k__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__qwen3_8b__gsm8k__zero_shot__n100.csv
+./results/raw/complete_plan_v2__qwen3_8b__math_l1_l3__cot__n100.csv
+./results/raw/complete_plan_v2__qwen3_8b__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__qwen3_8b__math_l1_l3__zero_shot__n100.csv
+./results/raw/complete_plan_v2__qwen3_8b__truthfulqa_mc1__cot__n100.csv
+./results/raw/complete_plan_v2__qwen3_8b__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/complete_plan_v2__qwen3_8b__truthfulqa_mc1__zero_shot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_26b_a4b__ALL_RUNS__n300.csv
+./results/raw/complete_plan_v3__gemma_4_26b_a4b__arc_challenge__cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_26b_a4b__arc_challenge__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_26b_a4b__arc_challenge__zero_shot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_26b_a4b__gsm8k__cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_26b_a4b__gsm8k__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_26b_a4b__gsm8k__zero_shot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_26b_a4b__math_l1_l3__cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_26b_a4b__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_26b_a4b__math_l1_l3__zero_shot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_26b_a4b__truthfulqa_mc1__cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_26b_a4b__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_26b_a4b__truthfulqa_mc1__zero_shot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e2b__ALL_RUNS__n300.csv
+./results/raw/complete_plan_v3__gemma_4_e2b__arc_challenge__cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e2b__arc_challenge__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e2b__arc_challenge__zero_shot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e2b__gsm8k__cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e2b__gsm8k__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e2b__gsm8k__zero_shot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e2b__math_l1_l3__cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e2b__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e2b__math_l1_l3__zero_shot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e2b__truthfulqa_mc1__cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e2b__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e2b__truthfulqa_mc1__zero_shot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e4b__ALL_RUNS__n300.csv
+./results/raw/complete_plan_v3__gemma_4_e4b__arc_challenge__cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e4b__arc_challenge__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e4b__arc_challenge__zero_shot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e4b__gsm8k__cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e4b__gsm8k__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e4b__gsm8k__zero_shot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e4b__math_l1_l3__cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e4b__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e4b__math_l1_l3__zero_shot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e4b__truthfulqa_mc1__cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e4b__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__gemma_4_e4b__truthfulqa_mc1__zero_shot__n100.csv
+./results/raw/complete_plan_v3__phi_4_mini_reasoning__ALL_RUNS__n300.csv
+./results/raw/complete_plan_v3__phi_4_mini_reasoning__arc_challenge__cot__n100.csv
+./results/raw/complete_plan_v3__phi_4_mini_reasoning__arc_challenge__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__phi_4_mini_reasoning__arc_challenge__zero_shot__n100.csv
+./results/raw/complete_plan_v3__phi_4_mini_reasoning__gsm8k__cot__n100.csv
+./results/raw/complete_plan_v3__phi_4_mini_reasoning__gsm8k__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__phi_4_mini_reasoning__gsm8k__zero_shot__n100.csv
+./results/raw/complete_plan_v3__phi_4_mini_reasoning__math_l1_l3__cot__n100.csv
+./results/raw/complete_plan_v3__phi_4_mini_reasoning__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__phi_4_mini_reasoning__math_l1_l3__zero_shot__n100.csv
+./results/raw/complete_plan_v3__phi_4_mini_reasoning__truthfulqa_mc1__cot__n100.csv
+./results/raw/complete_plan_v3__phi_4_mini_reasoning__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__phi_4_mini_reasoning__truthfulqa_mc1__zero_shot__n100.csv
+./results/raw/complete_plan_v3__phi_4_reasoning__ALL_RUNS__n300.csv
+./results/raw/complete_plan_v3__phi_4_reasoning__arc_challenge__cot__n100.csv
+./results/raw/complete_plan_v3__phi_4_reasoning__arc_challenge__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__phi_4_reasoning__arc_challenge__zero_shot__n100.csv
+./results/raw/complete_plan_v3__phi_4_reasoning__gsm8k__cot__n100.csv
+./results/raw/complete_plan_v3__phi_4_reasoning__gsm8k__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__phi_4_reasoning__gsm8k__zero_shot__n100.csv
+./results/raw/complete_plan_v3__phi_4_reasoning__math_l1_l3__cot__n100.csv
+./results/raw/complete_plan_v3__phi_4_reasoning__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__phi_4_reasoning__math_l1_l3__zero_shot__n100.csv
+./results/raw/complete_plan_v3__phi_4_reasoning__truthfulqa_mc1__cot__n100.csv
+./results/raw/complete_plan_v3__phi_4_reasoning__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__phi_4_reasoning__truthfulqa_mc1__zero_shot__n100.csv
+./results/raw/complete_plan_v3__qwen3_30b_a3b__ALL_RUNS__n300.csv
+./results/raw/complete_plan_v3__qwen3_30b_a3b__arc_challenge__cot__n100.csv
+./results/raw/complete_plan_v3__qwen3_30b_a3b__arc_challenge__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__qwen3_30b_a3b__arc_challenge__zero_shot__n100.csv
+./results/raw/complete_plan_v3__qwen3_30b_a3b__gsm8k__cot__n100.csv
+./results/raw/complete_plan_v3__qwen3_30b_a3b__gsm8k__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__qwen3_30b_a3b__gsm8k__zero_shot__n100.csv
+./results/raw/complete_plan_v3__qwen3_30b_a3b__math_l1_l3__cot__n100.csv
+./results/raw/complete_plan_v3__qwen3_30b_a3b__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__qwen3_30b_a3b__math_l1_l3__zero_shot__n100.csv
+./results/raw/complete_plan_v3__qwen3_30b_a3b__truthfulqa_mc1__cot__n100.csv
+./results/raw/complete_plan_v3__qwen3_30b_a3b__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__qwen3_30b_a3b__truthfulqa_mc1__zero_shot__n100.csv
+./results/raw/complete_plan_v3__qwen3_8b__ALL_RUNS__n300.csv
+./results/raw/complete_plan_v3__qwen3_8b__arc_challenge__cot__n100.csv
+./results/raw/complete_plan_v3__qwen3_8b__arc_challenge__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__qwen3_8b__arc_challenge__zero_shot__n100.csv
+./results/raw/complete_plan_v3__qwen3_8b__gsm8k__cot__n100.csv
+./results/raw/complete_plan_v3__qwen3_8b__gsm8k__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__qwen3_8b__gsm8k__zero_shot__n100.csv
+./results/raw/complete_plan_v3__qwen3_8b__math_l1_l3__cot__n100.csv
+./results/raw/complete_plan_v3__qwen3_8b__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__qwen3_8b__math_l1_l3__zero_shot__n100.csv
+./results/raw/complete_plan_v3__qwen3_8b__truthfulqa_mc1__cot__n100.csv
+./results/raw/complete_plan_v3__qwen3_8b__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/complete_plan_v3__qwen3_8b__truthfulqa_mc1__zero_shot__n100.csv
+./results/raw/coverage_v2__gemma_4_26b_a4b__gemma_4_26b_a4b__ALL_RUNS__n300.csv
+./results/raw/coverage_v2__gemma_4_26b_a4b__gemma_4_26b_a4b__arc_challenge__cot__n100.csv
+./results/raw/coverage_v2__gemma_4_26b_a4b__gemma_4_26b_a4b__arc_challenge__few_shot_cot__n100.csv
+./results/raw/coverage_v2__gemma_4_26b_a4b__gemma_4_26b_a4b__arc_challenge__zero_shot__n100.csv
+./results/raw/coverage_v2__gemma_4_26b_a4b__gemma_4_26b_a4b__gsm8k__cot__n100.csv
+./results/raw/coverage_v2__gemma_4_26b_a4b__gemma_4_26b_a4b__gsm8k__few_shot_cot__n100.csv
+./results/raw/coverage_v2__gemma_4_26b_a4b__gemma_4_26b_a4b__gsm8k__zero_shot__n100.csv
+./results/raw/coverage_v2__gemma_4_26b_a4b__gemma_4_26b_a4b__math_l1_l3__cot__n100.csv
+./results/raw/coverage_v2__gemma_4_26b_a4b__gemma_4_26b_a4b__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/coverage_v2__gemma_4_26b_a4b__gemma_4_26b_a4b__math_l1_l3__zero_shot__n100.csv
+./results/raw/coverage_v2__gemma_4_26b_a4b__gemma_4_26b_a4b__truthfulqa_mc1__cot__n100.csv
+./results/raw/coverage_v2__gemma_4_26b_a4b__gemma_4_26b_a4b__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/coverage_v2__gemma_4_26b_a4b__gemma_4_26b_a4b__truthfulqa_mc1__zero_shot__n100.csv
+./results/raw/coverage_v2__gemma_4_e2b__gemma_4_e2b__ALL_RUNS__n300.csv
+./results/raw/coverage_v2__gemma_4_e2b__gemma_4_e2b__arc_challenge__cot__n100.csv
+./results/raw/coverage_v2__gemma_4_e2b__gemma_4_e2b__arc_challenge__few_shot_cot__n100.csv
+./results/raw/coverage_v2__gemma_4_e2b__gemma_4_e2b__arc_challenge__zero_shot__n100.csv
+./results/raw/coverage_v2__gemma_4_e2b__gemma_4_e2b__gsm8k__cot__n100.csv
+./results/raw/coverage_v2__gemma_4_e2b__gemma_4_e2b__gsm8k__few_shot_cot__n100.csv
+./results/raw/coverage_v2__gemma_4_e2b__gemma_4_e2b__gsm8k__zero_shot__n100.csv
+./results/raw/coverage_v2__gemma_4_e2b__gemma_4_e2b__math_l1_l3__cot__n100.csv
+./results/raw/coverage_v2__gemma_4_e2b__gemma_4_e2b__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/coverage_v2__gemma_4_e2b__gemma_4_e2b__math_l1_l3__zero_shot__n100.csv
+./results/raw/coverage_v2__gemma_4_e2b__gemma_4_e2b__truthfulqa_mc1__cot__n100.csv
+./results/raw/coverage_v2__gemma_4_e2b__gemma_4_e2b__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/coverage_v2__gemma_4_e2b__gemma_4_e2b__truthfulqa_mc1__zero_shot__n100.csv
+./results/raw/coverage_v2__gemma_4_e4b__gemma_4_e4b__ALL_RUNS__n300.csv
+./results/raw/coverage_v2__gemma_4_e4b__gemma_4_e4b__arc_challenge__cot__n100.csv
+./results/raw/coverage_v2__gemma_4_e4b__gemma_4_e4b__arc_challenge__few_shot_cot__n100.csv
+./results/raw/coverage_v2__gemma_4_e4b__gemma_4_e4b__arc_challenge__zero_shot__n100.csv
+./results/raw/coverage_v2__gemma_4_e4b__gemma_4_e4b__gsm8k__cot__n100.csv
+./results/raw/coverage_v2__gemma_4_e4b__gemma_4_e4b__gsm8k__few_shot_cot__n100.csv
+./results/raw/coverage_v2__gemma_4_e4b__gemma_4_e4b__gsm8k__zero_shot__n100.csv
+./results/raw/coverage_v2__gemma_4_e4b__gemma_4_e4b__math_l1_l3__cot__n100.csv
+./results/raw/coverage_v2__gemma_4_e4b__gemma_4_e4b__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/coverage_v2__gemma_4_e4b__gemma_4_e4b__math_l1_l3__zero_shot__n100.csv
+./results/raw/coverage_v2__gemma_4_e4b__gemma_4_e4b__truthfulqa_mc1__cot__n100.csv
+./results/raw/coverage_v2__gemma_4_e4b__gemma_4_e4b__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/coverage_v2__gemma_4_e4b__gemma_4_e4b__truthfulqa_mc1__zero_shot__n100.csv
+./results/raw/coverage_v2__phi_4_mini_reasoning__phi_4_mini_reasoning__ALL_RUNS__n300.csv
+./results/raw/coverage_v2__phi_4_mini_reasoning__phi_4_mini_reasoning__arc_challenge__cot__n100.csv
+./results/raw/coverage_v2__phi_4_mini_reasoning__phi_4_mini_reasoning__arc_challenge__few_shot_cot__n100.csv
+./results/raw/coverage_v2__phi_4_mini_reasoning__phi_4_mini_reasoning__arc_challenge__zero_shot__n100.csv
+./results/raw/coverage_v2__phi_4_mini_reasoning__phi_4_mini_reasoning__gsm8k__cot__n100.csv
+./results/raw/coverage_v2__phi_4_mini_reasoning__phi_4_mini_reasoning__gsm8k__few_shot_cot__n100.csv
+./results/raw/coverage_v2__phi_4_mini_reasoning__phi_4_mini_reasoning__gsm8k__zero_shot__n100.csv
+./results/raw/coverage_v2__phi_4_mini_reasoning__phi_4_mini_reasoning__math_l1_l3__cot__n100.csv
+./results/raw/coverage_v2__phi_4_mini_reasoning__phi_4_mini_reasoning__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/coverage_v2__phi_4_mini_reasoning__phi_4_mini_reasoning__math_l1_l3__zero_shot__n100.csv
+./results/raw/coverage_v2__phi_4_mini_reasoning__phi_4_mini_reasoning__truthfulqa_mc1__cot__n100.csv
+./results/raw/coverage_v2__phi_4_mini_reasoning__phi_4_mini_reasoning__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/coverage_v2__phi_4_mini_reasoning__phi_4_mini_reasoning__truthfulqa_mc1__zero_shot__n100.csv
+./results/raw/coverage_v2__phi_4_reasoning__phi_4_reasoning__ALL_RUNS__n300.csv
+./results/raw/coverage_v2__phi_4_reasoning__phi_4_reasoning__arc_challenge__cot__n100.csv
+./results/raw/coverage_v2__phi_4_reasoning__phi_4_reasoning__arc_challenge__few_shot_cot__n100.csv
+./results/raw/coverage_v2__phi_4_reasoning__phi_4_reasoning__arc_challenge__zero_shot__n100.csv
+./results/raw/coverage_v2__phi_4_reasoning__phi_4_reasoning__gsm8k__cot__n100.csv
+./results/raw/coverage_v2__phi_4_reasoning__phi_4_reasoning__gsm8k__few_shot_cot__n100.csv
+./results/raw/coverage_v2__phi_4_reasoning__phi_4_reasoning__gsm8k__zero_shot__n100.csv
+./results/raw/coverage_v2__phi_4_reasoning__phi_4_reasoning__math_l1_l3__cot__n100.csv
+./results/raw/coverage_v2__phi_4_reasoning__phi_4_reasoning__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/coverage_v2__phi_4_reasoning__phi_4_reasoning__math_l1_l3__zero_shot__n100.csv
+./results/raw/coverage_v2__phi_4_reasoning__phi_4_reasoning__truthfulqa_mc1__cot__n100.csv
+./results/raw/coverage_v2__phi_4_reasoning__phi_4_reasoning__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/coverage_v2__phi_4_reasoning__phi_4_reasoning__truthfulqa_mc1__zero_shot__n100.csv
+./results/raw/coverage_v2__qwen3_30b_a3b__qwen3_30b_a3b__ALL_RUNS__n300.csv
+./results/raw/coverage_v2__qwen3_30b_a3b__qwen3_30b_a3b__arc_challenge__cot__n100.csv
+./results/raw/coverage_v2__qwen3_30b_a3b__qwen3_30b_a3b__arc_challenge__few_shot_cot__n100.csv
+./results/raw/coverage_v2__qwen3_30b_a3b__qwen3_30b_a3b__arc_challenge__zero_shot__n100.csv
+./results/raw/coverage_v2__qwen3_30b_a3b__qwen3_30b_a3b__gsm8k__cot__n100.csv
+./results/raw/coverage_v2__qwen3_30b_a3b__qwen3_30b_a3b__gsm8k__few_shot_cot__n100.csv
+./results/raw/coverage_v2__qwen3_30b_a3b__qwen3_30b_a3b__gsm8k__zero_shot__n100.csv
+./results/raw/coverage_v2__qwen3_30b_a3b__qwen3_30b_a3b__math_l1_l3__cot__n100.csv
+./results/raw/coverage_v2__qwen3_30b_a3b__qwen3_30b_a3b__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/coverage_v2__qwen3_30b_a3b__qwen3_30b_a3b__math_l1_l3__zero_shot__n100.csv
+./results/raw/coverage_v2__qwen3_30b_a3b__qwen3_30b_a3b__truthfulqa_mc1__cot__n100.csv
+./results/raw/coverage_v2__qwen3_30b_a3b__qwen3_30b_a3b__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/coverage_v2__qwen3_30b_a3b__qwen3_30b_a3b__truthfulqa_mc1__zero_shot__n100.csv
+./results/raw/coverage_v2__qwen3_8b__qwen3_8b__ALL_RUNS__n300.csv
+./results/raw/coverage_v2__qwen3_8b__qwen3_8b__arc_challenge__cot__n100.csv
+./results/raw/coverage_v2__qwen3_8b__qwen3_8b__arc_challenge__few_shot_cot__n100.csv
+./results/raw/coverage_v2__qwen3_8b__qwen3_8b__arc_challenge__zero_shot__n100.csv
+./results/raw/coverage_v2__qwen3_8b__qwen3_8b__gsm8k__cot__n100.csv
+./results/raw/coverage_v2__qwen3_8b__qwen3_8b__gsm8k__few_shot_cot__n100.csv
+./results/raw/coverage_v2__qwen3_8b__qwen3_8b__gsm8k__zero_shot__n100.csv
+./results/raw/coverage_v2__qwen3_8b__qwen3_8b__math_l1_l3__cot__n100.csv
+./results/raw/coverage_v2__qwen3_8b__qwen3_8b__math_l1_l3__few_shot_cot__n100.csv
+./results/raw/coverage_v2__qwen3_8b__qwen3_8b__math_l1_l3__zero_shot__n100.csv
+./results/raw/coverage_v2__qwen3_8b__qwen3_8b__truthfulqa_mc1__cot__n100.csv
+./results/raw/coverage_v2__qwen3_8b__qwen3_8b__truthfulqa_mc1__few_shot_cot__n100.csv
+./results/raw/coverage_v2__qwen3_8b__qwen3_8b__truthfulqa_mc1__zero_shot__n100.csv
+./run_complete_plan_v3.sh
+./run_coverage_v2.sh
+./scripts
+
+==================== FINAL ARTIFACT CHECK ====================
+[MISSING] aggregated/aggregated_final.csv
+[MISSING] aggregated/weighted_summary_final.csv
+[MISSING] aggregated/pairwise_stats_final.csv
+[MISSING] aggregated/raw_concat_final.csv
+[MISSING] aggregated/error_pack_for_manual_review.csv
+[MISSING] aggregated/prompting_accuracy_final.csv
+[MISSING] aggregated/prompting_latency_final.csv
+[OK] figures/pareto_zero_shot.png
+[OK] figures/pareto_cot.png
+[OK] figures/pareto_few_shot_cot.png
+[OK] figures/prompting_accuracy_arc_challenge.png
+[OK] figures/prompting_accuracy_gsm8k.png
+[OK] figures/prompting_accuracy_math_l1_l3.png
+[OK] figures/prompting_accuracy_truthfulqa_mc1.png
+[OK] figures/scaling_final.png
+[OK] configs/models.yaml
+[OK] configs/datasets.yaml
+[OK] configs/prompts.yaml
+[OK] analysis/finalize_complete_plan_results.py
+[OK] analysis/repair_pairwise_stats_final.py
+[OK] analysis/final_v2_aggregate.py
+[OK] analysis/final_v2_pairwise.py
+[OK] analysis/final_v2_figures.py
+[OK] analysis/final_v2_error_pack.py
+
+==================== ARTIFACT SIZES ====================
+856K	figures
+16K	configs
+172K	analysis
+24K	prompts
+36K	evaluation
+
+==================== CSV SHAPES / COLUMNS ====================
+================================================================================
+aggregated/aggregated_final.csv
+MISSING
+================================================================================
+aggregated/weighted_summary_final.csv
+MISSING
+================================================================================
+aggregated/pairwise_stats_final.csv
+MISSING
+================================================================================
+aggregated/raw_concat_final.csv
+MISSING
+================================================================================
+aggregated/error_pack_for_manual_review.csv
+MISSING
+================================================================================
+aggregated/prompting_accuracy_final.csv
+MISSING
+================================================================================
+aggregated/prompting_latency_final.csv
+MISSING
+
+==================== KEY RESULT SNAPSHOT ====================
+
+==================== POSSIBLE EXECUTION ENTRYPOINTS ====================
+./analysis/finalize_complete_plan_results.py
+./analysis/final_v2_aggregate.py
+./analysis/final_v2_error_pack.py
+./analysis/final_v2_figures.py
+./analysis/final_v2_pairwise.py
+./analysis/print_results_for_paper.py
+./analysis/repair_pairwise_stats_final.py
+./archive_cleanup/scripts/aggregate_full_feasible.py
+./archive_cleanup/scripts/error_analysis.py
+./archive_cleanup/scripts/pairwise_stats.py
+./archive_cleanup/scripts/pareto.py
+./archive_cleanup/scripts/prompting_ablation.py
+./archive_cleanup/scripts/scaling.py
+./archive_model_swap/scripts/aggregate_by_tag.py
+./archive_model_swap/scripts/final_aggregate.py
+./archive_model_swap/scripts/final_error_pack.py
+./archive_model_swap/scripts/final_pairwise_stats.py
+./archive_model_swap/scripts/final_pareto.py
+./archive_model_swap/scripts/final_prompting_report.py
+./archive_model_swap/scripts/final_scaling.py
+./archive_model_swap/scripts/final_weighted_summary.py
+./archive_model_swap/scripts/__init__.py
+./archive_model_swap/scripts/pairwise_by_tag.py
+./archive_model_swap/scripts/reproduce_final.sh
+./archive_model_swap/scripts/run_full_feasible_matrix.sh
+./configs/datasets.yaml
+./configs/models.yaml
+./configs/prompts.yaml
+./data/__init__.py
+./data/prepare_datasets.py
+./evaluation/extractor.py
+./evaluation/grader.py
+./evaluation/__init__.py
+./evaluation/metrics.py
+./experiments/__init__.py
+./experiments/run_benchmark_final_clean.py
+./experiments/run_benchmark_with_fallback.py
+./experiments/run_experiment.py
+./experiments/run_single.py
+./models/inference.py
+./models/__init__.py
+./models/loader.py
+./prompts/builder.py
+./prompts/__init__.py
+./reproduce.sh
+./run_complete_plan_v3.sh
+./run_coverage_v2.sh
+
+==================== DONE ====================
