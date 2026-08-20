@@ -1,6 +1,6 @@
 models:
   - name: phi_4_mini_reasoning
-    pretty_name: "Phi-4-mini-reasoning"
+    pretty_name: "Phi-4-Mini-Reasoning"
     hf_id: "microsoft/Phi-4-mini-reasoning"
     revision: null
     architecture: "dense"
@@ -14,9 +14,13 @@ models:
     pretty_name: "Gemma-4-E2B"
     hf_id: "google/gemma-4-E2B-it"
     revision: null
-    architecture: "moe"
-    total_params_b: 5.0
-    active_params_b: 2.0
+    architecture: "dense"
+    total_params_b: 5.1
+    effective_params_b: 2.3
+    # Compatibility alias for the existing pipeline schema.
+    # For this dense PLE model, this is the official effective parameter
+    # count, not MoE expert activation.
+    active_params_b: 2.3
     default_dtype: "bfloat16"
     trust_remote_code: false
     use_chat_template: true
@@ -25,9 +29,13 @@ models:
     pretty_name: "Gemma-4-E4B"
     hf_id: "google/gemma-4-E4B-it"
     revision: null
-    architecture: "moe"
+    architecture: "dense"
     total_params_b: 8.0
-    active_params_b: 4.0
+    effective_params_b: 4.5
+    # Compatibility alias for the existing pipeline schema.
+    # For this dense PLE model, this is the official effective parameter
+    # count, not MoE expert activation.
+    active_params_b: 4.5
     default_dtype: "bfloat16"
     trust_remote_code: false
     use_chat_template: true
@@ -37,8 +45,9 @@ models:
     hf_id: "Qwen/Qwen3-30B-A3B"
     revision: null
     architecture: "moe"
-    total_params_b: 30.0
-    active_params_b: 3.0
+    total_params_b: 30.5
+    active_params_b: 3.3
+    non_embedding_params_b: 29.9
     default_dtype: "bfloat16"
     trust_remote_code: false
     use_chat_template: true
@@ -48,7 +57,7 @@ models:
     hf_id: "google/gemma-4-26B-A4B-it"
     revision: null
     architecture: "moe"
-    total_params_b: 26.0
+    total_params_b: 25.2
     active_params_b: 3.8
     default_dtype: "bfloat16"
     trust_remote_code: false
@@ -59,14 +68,15 @@ models:
     hf_id: "Qwen/Qwen3-8B"
     revision: null
     architecture: "dense"
-    total_params_b: 8.0
-    active_params_b: 8.0
+    total_params_b: 8.2
+    active_params_b: 8.2
+    non_embedding_params_b: 6.95
     default_dtype: "bfloat16"
     trust_remote_code: false
     use_chat_template: true
 
   - name: phi_4_reasoning
-    pretty_name: "Phi-4-reasoning"
+    pretty_name: "Phi-4-Reasoning"
     hf_id: "microsoft/Phi-4-reasoning"
     revision: null
     architecture: "dense"
